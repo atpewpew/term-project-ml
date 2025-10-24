@@ -10,11 +10,11 @@ __pycache__/
 venv/
 .idea/
 .vscode/
-results/csv/*.tmp
-results/models/*.tmp
-1_submission.zip
-results/models/
-results/csv/
-logs/
-results/summary_results.csv
+.DS_Store
+*.log
+*.tmp
+
+# Ignore experiment results, models, and plots
+results/
+results
 results/
